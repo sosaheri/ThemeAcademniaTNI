@@ -1,0 +1,126 @@
+/* 
+    Customizer.css
+*/
+
+.customize-control-title {
+border-bottom: 1px solid #EFEFEF;
+margin: 5px 0;
+display: block;
+line-height: 24px;
+font-weight: bold;
+font-size: 13px;
+padding: 0px 0 2px;
+color: #444;
+}
+
+.slider_value{
+    max-width:40px;
+    float:left;
+}
+
+.customizer_slider.ui-slider{
+    padding:5px;
+    background:#f6f6f6;
+    border:1px solid #EFEFEF;
+    position:relative;
+    margin:12px 10px 10px 60px;
+}
+
+.customizer_slider.ui-slider .ui-slider-handle {
+position: absolute;
+z-index: 2;
+width: 1.2em;
+height: 1.2em;
+top:-2px;
+background:#ccc;
+cursor: default;
+}
+
+.imgselect_choices{
+	display:inline-block;
+	width:100%;clear:both;
+}
+
+.imgselect_choices li{
+	float:left;
+	display:inline-block;
+}
+
+.imgselect_choices li span{
+	border:5px solid transparent;
+	max-width:75px;
+	display:inline-block;line-height:0;
+}
+
+.imgselect_choices li span.selected{
+	border-color:#32CD32;
+}
+
+.customize-control-checkbox label{
+	margin-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 28px;
+}
+ 
+.onoffswitch_label{
+	display: inline-block;
+    vertical-align: top;
+    margin-top: -1px;
+    width: 200px;
+}
+ 
+.onoffswitch {
+	position: relative;
+	width: 40px;
+	display: inline-block;
+	float: right;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select: none;
+}
+ 
+.onoffswitch-checkbox {
+	display: none!important;
+}
+ 
+.onoffswitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	height: 18px;
+	padding: 0;
+	line-height: 18px;
+	border: 2px solid #9E9E9E;
+	border-radius: 18px;
+	background-color: #9E9E9E;
+	transition: background-color 0.2s ease-in;
+}
+ 
+.onoffswitch-label:before {
+	content: "";
+	display: block;
+	width: 18px;
+	margin: 0;
+	background: #EBEBEB;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	border: 2px solid #9E9E9E;
+	border-radius: 18px;
+	transition: all 0.2s ease-in 0s;
+}
+ 
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+	background-color: #42A5F5;
+}
+ 
+.onoffswitch-checkbox:checked + .onoffswitch-label,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+	border-color: #42A5F5;
+}
+ 
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+	right: 0;
+}
